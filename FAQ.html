@@ -1,0 +1,239 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Almost Vegan </title>
+
+<style type="text/css">
+<!--
+
+a:hover	{background: #D5CD00;
+		color: white}
+-->
+</style>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+<style>
+#grad1 {
+    height: 200px;
+    background: white; 
+    background: linear-gradient(white, gold); 
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(event) { 
+
+
+var acc = document.getElementsByClassName("accordion");
+var panel = document.getElementsByClassName('panel');
+
+for (var i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+        var setClasses = !this.classList.contains('active');
+        setClass(acc, 'active', 'remove');
+        setClass(panel, 'show', 'remove');
+
+        if (setClasses) {
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        }
+    }
+}
+
+function setClass(els, className, fnName) {
+    for (var i = 0; i < els.length; i++) {
+        els[i].classList[fnName](className);
+    }
+}
+
+});
+</script>
+
+<style type="text/css">
+<!--
+
+a:hover	{background: #D5CD00;
+		color: white}
+-->
+</style>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+<style>
+#grad1 {
+    height: 200px;
+    background: white; 
+    background: linear-gradient(white, gold); 
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #ffd700;
+}
+
+.dropdown {
+	float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+</style>
+
+</head>
+
+<body>
+
+<div style="text-align: center">
+<img src="almostveganbanner.png" width="900" height="50" alt="Banner" />
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="AlmostVeganMainPage.html">Home</a>
+    <a href="aboutme.html">About</a>
+	<a href="Pics.html">Pics</a>
+	<a href="FAQ.html">FAQ</a>
+	<a href="links.html">Links</a>
+	<a href="search.html">Search</a>
+	<a href="feedback.html">Feedback</a>
+	<a href="join.html">Join</a>
+	<a href="bookme.html">Book</a>
+    <a href="mailto:almostveganofficial@isp.com">Contact</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<form method="get" action="http://www.google.com/search"> <input type="text" name="q" size="31" maxlength="255" value="" /> <input type="submit" value="Google Search" /> </form>
+</div>
+
+<div style="text-align: center">
+<h3>FAQs</h3>
+
+<p class="accordion"><img src="fork1.png" width="10" height="10" alt="Fork"/>What does Almost Vegan mean?<img src="fork1.png" width="10" height="10" alt="Fork" /></p>
+<div class="panel"><img src="fork1.png" width="25" height="25" alt="Fork"/>It is simply the same I chose for the company based on my eating habits.There are certain types of food that I will eat even if they aren't vegan, like regular cheese.<img src="fork1.png" width="25" height="25" alt="Fork"/></div>
+
+<p class="accordion"><img src="fork1.png" width="10" height="10" alt="Fork"/>What is the difference between vegan and vegetarian?<img src="fork1.png" width="10" height="10" alt="Fork"/></p>
+<div class="panel"><img src="fork1.png" width="25" height="25" alt="Fork"/>Veganism is the practice of abstaining from the use of all animal products. Vegetarian diets do not utilize meat, and sometimes other animal products. For example, honey comes from an animal so it is not vegan but since it is not meat a vegetarian might consume it.<img src="fork1.png" width="25" height="25" alt="Fork"/></div>
+
+</div>
+
+
+
+
+
+
+<h4 style="text-align:center"></h4>
+	<ul style="list-style-type:none">
+		<li></li>
+	</ul>
+
+
+
+
+
+<table class="menu">
+	<tr>
+		<td class="menuorselect"><a href="AlmostVeganMainPage.html">Home</a></td>
+		
+		<td class="menupipe">|</td>
+
+		<td class="menuword"><a href="aboutme.html">About</a><td>
+		
+		<td class="menupipe">|</td>
+
+		<td class="menuword"><a href="Pics.html">Pics</a><td>
+		
+		<td class="menupipe">|</td>
+
+		<td class="menuword"><a href="FAQ.html">FAQ</a><td>
+		
+		<td class="menupipe">|</td>
+
+		<td class="menuword"><a href="links.html">Links</a><td>
+		
+		<td class="menupipe">|</td>
+
+		<td class="menuword"><a href="search.html">Search</a><td>
+		
+		<td class="menupipe">|</td>
+
+		<td class="menuword"><a href="feedback.html">Feedback</a><td>
+		
+		<td class="menupipe">|</td>
+
+		<td class="menuword"><a href="join.html">Join</a><td>
+		
+		<td class="menupipe">|</td>
+
+		<td class="menuword"><a href="bookme.html">Book</a><td>
+	</tr>
+</table>
+
+<div style="text-align: center">
+<a href="AlmostVeganMainPage.html" style="background-color: transparent; text-decoration: none">
+<img style="border-color: transparent" src="almostveganlogo.png" width="100" height="100" alt="Back Home" />
+</div>
+
+<div id="grad1"></div>
+
+</body>
+
+</html>
